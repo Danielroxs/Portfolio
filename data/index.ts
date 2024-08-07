@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -8,7 +10,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Priorizo la colaboración con el cliente, fomentando una comunicación abierta. ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Soy muy flexible con las comunicaciones a diferentes zonas horarias.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Mi tech stack",
+    description: "Constantemente trato de mejorar.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Entusiasta de la tecnología con una pasión por el desarrollo.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Actualmente innovando con más herramientas Front End",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "¿Quieres empezar un proyecto juntos?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,27 +74,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Clon del Apple 15 con animaciones 3D dinámicas",
+    des: "Descubre el elegante diseño y las animaciones dinámicas de nuestro clon del Apple 15, animado con Three.js.",
+    img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://apple15page-68aelcfz0-danroxsllgmailcoms-projects.vercel.app/",
   },
   {
     id: 2,
     title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    des: "Brainwave - Sitio web moderno de UI/UX, desarrollado con React.js y Tailwind CSS, experiencia premium",
+    img: "/p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://brainwave-3jhsvvsr2-danroxsllgmailcoms-projects.vercel.app/",
   },
   {
     id: 3,
     title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    des: "Recreacion de Página Nike para zapatos, con un diseño excepcional utilizando Tailwind CSS, mostrando cada producto con una presentación profesional.",
+    img: "/p3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://nike-tailwind-cd26upi96-danroxsllgmailcoms-projects.vercel.app/",
   },
   {
     id: 4,
@@ -107,33 +109,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Trabajar con Daniel para renovar nuestra web de gimnasio fue una experiencia excelente. Capturó a la perfección la esencia de nuestro espacio y mejoró la funcionalidad del sitio, facilitando a nuestros miembros encontrar toda la información que necesitan. Su enfoque profesional y su atención a los detalles realmente hicieron la diferencia. ¡Recomiendo a Daniel sin dudarlo!",
+    name: "Carlos Villafaña",
+    title: "Gimnasio Muscle Machine",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Daniel hizo un trabajo fantástico con nuestro sitio web de clínica de salud. Su habilidad para traducir nuestras necesidades en un diseño intuitivo y profesional ha sido invaluable. El sitio no solo se ve increíble, sino que también ha mejorado la experiencia de nuestros pacientes al hacer la información y los servicios más accesibles. Estamos encantados con el resultado.",
+    name: "Ana Luisa Gómez",
+    title: "Clínica de Salud Vital",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "El rediseño del sitio web para nuestra carpintería por parte de Daniel ha sido sobresaliente. La galería de trabajos que creó resalta nuestras piezas de manera impresionante, y la navegación del sitio es mucho más fluida. Daniel entendió nuestra visión y la plasmó en un sitio web que realmente refleja la calidad de nuestro trabajo. ¡Estamos muy satisfechos con el resultado!",
+    name: "Lucio Perez",
+    title: "Carpintería y Madereria LP",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "La colaboración con Daniel para el sitio web de nuestro consultorio de nutrición ha sido increíble. Su capacidad para crear un diseño claro y funcional ha facilitado a nuestros clientes encontrar información relevante y programar citas. Su profesionalismo y compromiso con el proyecto fueron evidentes en cada etapa. Lo recomendaría sin dudarlo.",
+    name: "Neri Villeda",
+    title: "Consultorio Nutrición",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Trabajar con Daniel en la web para nuestra escuela de inglés fue una experiencia excelente. Su habilidad para capturar la esencia de nuestro enfoque educativo y reflejarla en el diseño del sitio ha sido invaluable. La facilidad de uso y la claridad del sitio han mejorado significativamente la experiencia para nuestros estudiantes. Estamos muy contentos con el resultado.",
+    name: "Luis V.",
+    title: "Academia Inglés Griffin English",
   },
 ];
 
@@ -205,13 +207,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://es.wikipedia.org/wiki/Plaza_de_la_Constituci%C3%B3n_(Ciudad_de_M%C3%A9xico)"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://es.wikipedia.org/wiki/Plaza_de_la_Constituci%C3%B3n_(Ciudad_de_M%C3%A9xico)"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://es.wikipedia.org/wiki/Plaza_de_la_Constituci%C3%B3n_(Ciudad_de_M%C3%A9xico)"
   },
 ];
