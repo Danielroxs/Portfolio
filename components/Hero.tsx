@@ -30,11 +30,11 @@ const Hero = () => {
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transformando ideas en interfaces web atractivas."
+            words="Hoy comienza tu historia de éxito digital!"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hola, soy Daniel, Desarrollador de Next.js con sede en México.
+            Hola, soy Daniel, Desarrollador Web con sede en México.
           </p>
 
           <a href="#about">

@@ -8,6 +8,7 @@ import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
 import { IoCopyOutline } from "react-icons/io5";
 import MagicButton from "./MagicButton";
+import Image from "next/image"; // Importa el componente Image
 
 export const BentoGrid = ({
   className,
@@ -52,7 +53,7 @@ export const BentoGridItem = ({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("danroxsll@gmail");
+    navigator.clipboard.writeText("danroxsll@gmail.com");
 
     setCopied(true);
   };
@@ -72,10 +73,13 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <Image
               src={img}
               alt={img}
               className={cn(imgClassName, "object-cover, object-center")}
+              layout="fill"
+              objectFit="cover"
+              unoptimized
             />
           )}
         </div>
@@ -85,10 +89,13 @@ export const BentoGridItem = ({
           }`}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
               className={"object-cover, object-center w-full h-full"}
+              layout="fill"
+              objectFit="cover"
+              unoptimized
             />
           )}
         </div>
@@ -157,7 +164,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email copied" : "Copiar mi email"}
+                title={copied ? "Email copiado!" : "Copiar email"}
                 icon={<IoCopyOutline />}
                 position="left"
                 otherClasses="!bg-[#161a31]"

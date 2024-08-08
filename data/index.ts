@@ -52,7 +52,7 @@ export const gridItems = [
   {
     id: 5,
     title: "Actualmente innovando con más herramientas Front End",
-    description: "The Inside Scoop",
+    description: "Constante aprendizaje",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -74,35 +74,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Clon del Apple 15 con animaciones 3D dinámicas",
+    title: "Apple 15 Pro 3D",
     des: "Descubre el elegante diseño y las animaciones dinámicas de nuestro clon del Apple 15, animado con Three.js.",
     img: "/p1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg", "/gsap.svg"],
     link: "https://apple15page-68aelcfz0-danroxsllgmailcoms-projects.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "Brainwave - Generative AI",
     des: "Brainwave - Sitio web moderno de UI/UX, desarrollado con React.js y Tailwind CSS, experiencia premium",
     img: "/p2.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://brainwave-3jhsvvsr2-danroxsllgmailcoms-projects.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "Recreacion de Página Nike para zapatos, con un diseño excepcional utilizando Tailwind CSS, mostrando cada producto con una presentación profesional.",
+    title: "Nike TW",
+    des: "Recreacion de Página Nike para Tennis, con un diseño excepcional utilizando Tailwind CSS, mostrando cada producto con una presentación profesional.",
     img: "/p3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://nike-tailwind-cd26upi96-danroxsllgmailcoms-projects.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Anime Site",
+    des: "Desarrollé una página web que consulta una API de anime y renderiza una galería interactiva de animes con detalles enriquecidos.",
+    img: "/p4.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://anime-vault-j2kznqqk0-danroxsllgmailcoms-projects.vercel.app/",
   },
 ];
 
@@ -175,39 +175,39 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Desarrollo React.js",
+    desc: "Asistencia en el desarrollo de plataformas web utilizando React.js, mejorando la interactividad.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    "id": 2,
+    "title": "Proyecto Freelance de Desarrollo Web",
+    "desc": "Diseño y desarrollo SLP para Consultorio de Nutrición, destacando sus servicios y mejorando su presencia en el mercado.",
+    "className": "md:col-span-2", // change to md:col-span-2
+    "thumbnail": "/exp2.svg"
   },
   {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    "id": 3,
+    "title": "Mobile first",
+    "desc": "Diseño y desarrollo de aplicaciones móviles con un enfoque en diseño responsivo, asegurando una experiencia de usuario óptima en todos los dispositivos.",
+    "className": "md:col-span-2", // change to md:col-span-2
+    "thumbnail": "/exp3.svg"
   },
   {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+    "id": 4,
+    "title": "Desarrollador Frontend Líder",
+    "desc": "Desarrollo, mantenimiento e implementación de nuevas características orientadas al usuario utilizando tecnologías modernas de frontend.",
+    "className": "md:col-span-2",
+    "thumbnail": "/exp4.svg"
+  }
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://es.wikipedia.org/wiki/Plaza_de_la_Constituci%C3%B3n_(Ciudad_de_M%C3%A9xico)"
+    link: "https://github.com/Danielroxs"
   },
   {
     id: 2,
@@ -217,6 +217,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link: "https://es.wikipedia.org/wiki/Plaza_de_la_Constituci%C3%B3n_(Ciudad_de_M%C3%A9xico)"
+    link: "https://acortar.link/OIjn43"
   },
 ];
