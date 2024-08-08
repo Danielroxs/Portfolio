@@ -78,7 +78,7 @@ export const projects = [
     des: "Descubre el elegante diseño y las animaciones dinámicas de nuestro clon del Apple 15, animado con Three.js.",
     img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg", "/gsap.svg"],
-    link: "https://apple15page-68aelcfz0-danroxsllgmailcoms-projects.vercel.app/",
+    link: "https://apple15page-git-main-danroxsllgmailcoms-projects.vercel.app/",
   },
   {
     id: 2,
@@ -86,7 +86,7 @@ export const projects = [
     des: "Brainwave - Sitio web moderno de UI/UX, desarrollado con React.js y Tailwind CSS, experiencia premium",
     img: "/p2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://brainwave-3jhsvvsr2-danroxsllgmailcoms-projects.vercel.app/",
+    link: "https://brainwave-git-main-danroxsllgmailcoms-projects.vercel.app/",
   },
   {
     id: 3,
@@ -94,7 +94,7 @@ export const projects = [
     des: "Recreacion de Página Nike para Tennis, con un diseño excepcional utilizando Tailwind CSS, mostrando cada producto con una presentación profesional.",
     img: "/p3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://nike-tailwind-cd26upi96-danroxsllgmailcoms-projects.vercel.app/",
+    link: "https://nike-tailwind-git-main-danroxsllgmailcoms-projects.vercel.app/",
   },
   {
     id: 4,
@@ -102,7 +102,7 @@ export const projects = [
     des: "Desarrollé una página web que consulta una API de anime y renderiza una galería interactiva de animes con detalles enriquecidos.",
     img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
-    link: "https://anime-vault-j2kznqqk0-danroxsllgmailcoms-projects.vercel.app/",
+    link: "https://anime-vault-git-main-danroxsllgmailcoms-projects.vercel.app/",
   },
 ];
 
