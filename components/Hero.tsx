@@ -37,7 +37,7 @@ const Hero = () => {
             Hola, soy Daniel, Desarrollador Web con sede en México.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Mostrar mi trabajo"
               icon={<FaLocationArrow />}

@@ -1,16 +1,16 @@
 import { link } from "fs";
 
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Acerca", link: "#about" },
+  { name: "Proyectos", link: "#projects" },
+  { name: "Testimoniales", link: "#testimonials" },
+  { name: "Contacto", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "Priorizo la colaboración con el cliente, fomentando una comunicación abierta. ",
+    title: "Priorizo el trabajo en equipo, asegurando siempre una comunicación abierta y clara.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -20,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Soy muy flexible con las comunicaciones a diferentes zonas horarias.",
+    title: "Me adapto fácilmente a distintas tecnologias y herramientas.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -40,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Entusiasta de la tecnología con una pasión por el desarrollo.",
+    title: "Apasionado por la tecnología y el desarrollo.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Actualmente innovando con más herramientas Front End",
+    title: "Explorando nuevas herramientas de Desarrollo Front End",
     description: "Constante aprendizaje",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -90,6 +90,22 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Delivery SPA",
+    desc: "Creación y optimización de una plataforma SPA de entrega a domicilio, enfocada en mejorar la experiencia del usuario mediante herramientas de frontend de última generación.", 
+    img: "/p5.webp",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://deliveryfrm.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Consultorio Nutrición",
+    desc: "Atención personalizada y planes nutricionales diseñados para mejorar la salud y el bienestar, utilizando estrategias basadas en evidencia y enfocadas en las necesidades individuales de cada paciente.",
+    img: "/p6.webp",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://nv10.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Nike TW",
     des: "Recreacion de Página Nike para Tennis, con un diseño excepcional utilizando Tailwind CSS, mostrando cada producto con una presentación profesional.",
     img: "/p3.png",
@@ -97,47 +113,49 @@ export const projects = [
     link: "https://nike-tailwind-git-main-danroxsllgmailcoms-projects.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Anime Site",
     des: "Desarrollé una página web que consulta una API de anime y renderiza una galería interactiva de animes con detalles enriquecidos.",
     img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
     link: "https://anime-vault-git-main-danroxsllgmailcoms-projects.vercel.app/",
   },
+  
 ];
 
 export const testimonials = [
   {
     quote:
       "Trabajar con Daniel para renovar nuestra web de gimnasio fue una experiencia excelente. Capturó a la perfección la esencia de nuestro espacio y mejoró la funcionalidad del sitio, facilitando a nuestros miembros encontrar toda la información que necesitan. Su enfoque profesional y su atención a los detalles realmente hicieron la diferencia. ¡Recomiendo a Daniel sin dudarlo!",
-    name: "Carlos Villafaña",
+    name: "Javier Mendez García",
     title: "Gimnasio Muscle Machine",
   },
   {
     quote:
       "Daniel hizo un trabajo fantástico con nuestro sitio web de clínica de salud. Su habilidad para traducir nuestras necesidades en un diseño intuitivo y profesional ha sido invaluable. El sitio no solo se ve increíble, sino que también ha mejorado la experiencia de nuestros pacientes al hacer la información y los servicios más accesibles. Estamos encantados con el resultado.",
-    name: "Ana Luisa Gómez",
+    name: "Patricia Sandoval Ríos",
     title: "Clínica de Salud Vital",
   },
   {
     quote:
       "El rediseño del sitio web para nuestra carpintería por parte de Daniel ha sido sobresaliente. La galería de trabajos que creó resalta nuestras piezas de manera impresionante, y la navegación del sitio es mucho más fluida. Daniel entendió nuestra visión y la plasmó en un sitio web que realmente refleja la calidad de nuestro trabajo. ¡Estamos muy satisfechos con el resultado!",
-    name: "Lucio Perez",
+    name: "Marco López Fernández",
     title: "Carpintería y Madereria LP",
   },
   {
     quote:
       "La colaboración con Daniel para el sitio web de nuestro consultorio de nutrición ha sido increíble. Su capacidad para crear un diseño claro y funcional ha facilitado a nuestros clientes encontrar información relevante y programar citas. Su profesionalismo y compromiso con el proyecto fueron evidentes en cada etapa. Lo recomendaría sin dudarlo.",
-    name: "Neri Villeda",
+    name: "Esteban Ruiz Morales",
     title: "Consultorio Nutrición",
   },
   {
     quote:
       "Trabajar con Daniel en la web para nuestra escuela de inglés fue una experiencia excelente. Su habilidad para capturar la esencia de nuestro enfoque educativo y reflejarla en el diseño del sitio ha sido invaluable. La facilidad de uso y la claridad del sitio han mejorado significativamente la experiencia para nuestros estudiantes. Estamos muy contentos con el resultado.",
-    name: "Luis V.",
+    name: "Gabriel Torres Martínez",
     title: "Academia Inglés Griffin English",
   },
 ];
+
 
 export const companies = [
   {
